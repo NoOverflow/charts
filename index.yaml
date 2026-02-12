@@ -34269,6 +34269,22 @@ entries:
     urls:
     - https://github.com/gabe565/charts/releases/download/qbittorrent-0.0.1/qbittorrent-0.0.1.tgz
     version: 0.0.1
+  quartz:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-02-12T23:25:51.93716262Z"
+    dependencies:
+    - alias: quartz
+      name: app-template
+      repository: https://bjw-s-labs.github.io/helm-charts/
+      version: 4.6.2
+    description: A Helm chart for deploying Quartz application using the common library
+    digest: ea39ea3b36140ea5aa5163ff04f8bf1a12e0e0d22569c95773d7267f0acd30ce
+    name: quartz
+    type: application
+    urls:
+    - https://github.com/NoOverflow/charts/releases/download/quartz-1.0.0/quartz-1.0.0.tgz
+    version: 1.0.0
   relax-sounds:
   - annotations:
       artifacthub.io/changes: |-
@@ -41968,4 +41984,4 @@ entries:
     urls:
     - https://github.com/gabe565/charts/releases/download/vaultwarden-0.1.0/vaultwarden-0.1.0.tgz
     version: 0.1.0
-generated: "2026-01-17T23:24:44.86130156Z"
+generated: "2026-02-12T23:25:51.938680237Z"
